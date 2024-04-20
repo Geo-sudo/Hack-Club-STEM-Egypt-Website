@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta property="og:type" content="website"/>
+    <meta charset="utf-8" />
+    <link rel="icon" href="assets/imgs/Hack-club-icon-rounded.png">
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>The Start</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://unpkg.com/jparticles/browser/jparticles.base.js"></script>
+    <script src="https://unpkg.com/jparticles/browser/particle.js"></script>
+    <link rel="stylesheet" href="clues.css">
+    <link rel="stylesheet" href="CQ.css">
+    <script src="finisher-header.es5.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../Fonts/BLANKA Font/Blanka-Regular.otf">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Protest+Guerrilla&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="top">
+            <img src="event-icon.png" alt="">
+        </div>
+    </header>
+    <div class="event">
+        <div class="event-title">
+            <p>CYBERQUEST</p>
+        </div>
+        <div class="main-event-container">
+            <p class="words-main">You got the power back up running. Now, with the coordinates from the General’s hard drive, you can use the hyper-power engines to get the Raider’s ship before they attack the hydrogen mine. Fasten Your Seat Belts! </p>
+            <p class="crypt">Enter the coordinates (to the nearest tenth) to go to:</p>
+            <div class="input active" action="" id="container">
+                <div class="coordinates">
+                    <input type="number" placeholder="X-coordinates" id="inputX" class="xyz">
+                    <input type="number" placeholder="Y-coordinates" id="inputY" class="xyz">
+                    <input type="number" placeholder="Z-coordinates" id="inputZ" class="xyz">
+                </div>
+                <button id="submit-button" type="submit" style="display: none;">Submit</button>
+            </div>
+            <div class="hacked close">
+                <p class="words-main">You figured it out!</p>
+                <a href="Docking.html">Continue</a>
+            </div>
+        </div>
+        <div class="foot">
+            <p class="clue-number">Clue-Num: 7</p>
+            <p class="clue-code">Clue-Name: Fast Travel</p>
+        </div>
+    </div>
+    <script src="clues.js"></script>
+</body>
+</html>

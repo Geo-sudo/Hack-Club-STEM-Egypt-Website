@@ -1,7 +1,7 @@
 function nextTime() {
   var text = "Welcome!";
-
-  return text;
+  var text2 = "CYBERQUEST";
+  return text,text2;
 
 }
 
@@ -14,6 +14,7 @@ var i = 0;
 function typeWriter() {
   if (i < quirky.length) {
     document.getElementById("form").innerHTML += quirky.charAt(i);
+    document.getElementById("event-name").innerHTML += quirky.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
   }
