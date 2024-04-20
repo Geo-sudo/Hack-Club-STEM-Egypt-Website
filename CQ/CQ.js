@@ -2,7 +2,7 @@
 let startbtn = document.getElementById("start");
 let words = document.getElementById("starting-words");
 let container = document.getElementById("container");
-let countDownDate = new Date("21 Apr,2024 8:00:00").getTime();
+let countDownDate = new Date("21 Apr,2024 17:00:00").getTime();
 
 let counter = setInterval(() => {
 
