@@ -5,9 +5,14 @@ let container = document.getElementById("container");
 let hacked = document.querySelector(".hacked");
 let wrong = document.querySelector(".input");
 let wrong_coordinates = document.querySelector(".xyz");
-
+let rules = document.getElementById("start");
 let minecraft = document.getElementById("minecraft");
 
+function rules_time() {
+    rules.classList.remove("close");
+    rules.classList.add("active");
+}
+setTimeout(rules_time, 90000);
 
 submit.addEventListener("click", () => {
     let value = input.value;
@@ -21,6 +26,11 @@ submit.addEventListener("click", () => {
     console.log(value);
     
 });
+
+
+
+
+
 
 let timer = document.getElementById("timer");
 let number = timer.innerHTML;
