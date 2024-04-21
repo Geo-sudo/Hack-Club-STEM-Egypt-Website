@@ -39,7 +39,8 @@
 .input button{
     font-size: 1.3em;
     font-family: "Kode Mono", monospace;
-    border: 2px solid black;
+    border: none;
+    padding: 5px 10px;
     border-radius: 5px;
     margin-top: 10px;
     background: #472b65;
@@ -65,15 +66,21 @@
     border: 2px solid red;
 }
 
+.confirm{
+    display: none;
+}
+
 .hacked a{
     font-size: 1.3em;
     font-family: "Kode Mono", monospace;
-    border: 2px solid black;
+    border: none;
+    padding: 5px 10px;
     border-radius: 5px;
     margin-top: 10px;
     background: #472b65;
     color: white;
     width: fit-content;
+    cursor: pointer;
     text-decoration: none;
 }
 

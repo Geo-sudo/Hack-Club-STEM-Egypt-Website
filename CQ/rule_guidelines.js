@@ -1,82 +1,5 @@
 
-let input = document.getElementById("input");
-let submit = document.getElementById("submit-button");
-let container = document.getElementById("container");
-let hacked = document.querySelector(".hacked");
-let wrong = document.querySelector(".input");
-let wrong_coordinates = document.querySelector(".xyz");
-let rules = document.getElementById("start");
-let minecraft = document.getElementById("minecraft");
-
-submit.addEventListener("click", () => {
-    let value = input.value;
-    if (value == "3THz_IR" || value == "Salute_Salute" || value == "Behind_The_Words" || value == "Look_Behind_You" || value == "Always_Hack" || value == "password_is_password" || value == "deadly_weapon" || value == "The_End" || value == "RUN" || value == "Triumph") {
-        container.classList.remove("active");
-        container.classList.add("close");
-        hacked.classList.remove("close");   
-        hacked.classList.add("active");
-        }else{
-        input.style.border = "2px solid red";}
-    console.log(value);
-    
-});
-
-    inputX.addEventListener("input", checkCoordinates);
-    inputY.addEventListener("input", checkCoordinates);
-    inputZ.addEventListener("input", checkCoordinates);
-
-    function checkCoordinates() {
-        let x_coordinate = inputX.value;
-        let y_coordinate = inputY.value;
-        let z_coordinate = inputZ.value;
-
-        if (x_coordinate === "44.4" && y_coordinate === "-73.2" && z_coordinate === "21.0") {
-            container.classList.remove("active");
-            container.classList.add("close");
-            hacked.classList.remove("close");
-            hacked.classList.add("active");
-        } 
-
-        console.log(x_coordinate);
-        console.log(y_coordinate);
-        console.log(z_coordinate);
-    };
-
-function rules_time() {
-    rules.classList.remove("close");
-    rules.classList.add("active");
-}
-setTimeout(rules_time, 90000);
-
-
-
-
-
-
-
-
-let timer = document.getElementById("timer");
-let number = timer.innerHTML;
-console.log(number);
-let inter = window.setInterval(countDown,1000);
-function countDown() {
-    timer.innerHTML--; 
-    if (Number(timer.innerHTML)===0) {
-        clearInterval(inter); 
-        minecraft_dying_screen(); 
-    }
-}; 
-
-
-function minecraft_dying_screen() {
-        minecraft.classList.remove("close");
-        minecraft.classList.add("active");
-        console.log("done");
-    }
-
-
-
-    console.log("HI");
+function _0x4a68(){const _0x5a429d=['classList','1380756SdlmIF','value','add','querySelector','active','4145955YQbryT','1241082dhbBVH','remove','Triumph','.input','log','password_is_password','1635096dhTLgt','close','2px\x20solid\x20red','RUN','4936aUjnRG','Behind_The_Words','12705MwsKIY','input','3fsnQNv','minecraft','deadly_weapon','Always_Hack','6WbWbCB','getElementById','Look_Behind_You','container','18751110rJtntF','1201321jHGAzy','click'];_0x4a68=function(){return _0x5a429d;};return _0x4a68();}const _0x4d225c=_0x5ae7;(function(_0x25335e,_0x2206f9){const _0x2a456a=_0x5ae7,_0x549bd5=_0x25335e();while(!![]){try{const _0xc63fd9=-parseInt(_0x2a456a(0x178))/0x1+-parseInt(_0x2a456a(0x187))/0x2*(-parseInt(_0x2a456a(0x16f))/0x3)+-parseInt(_0x2a456a(0x17b))/0x4+-parseInt(_0x2a456a(0x180))/0x5*(-parseInt(_0x2a456a(0x173))/0x6)+-parseInt(_0x2a456a(0x16d))/0x7*(parseInt(_0x2a456a(0x16b))/0x8)+-parseInt(_0x2a456a(0x181))/0x9+parseInt(_0x2a456a(0x177))/0xa;if(_0xc63fd9===_0x2206f9)break;else _0x549bd5['push'](_0x549bd5['shift']());}catch(_0xe435e9){_0x549bd5['push'](_0x549bd5['shift']());}}}(_0x4a68,0xaf313));let input=document['getElementById'](_0x4d225c(0x16e)),submit=document[_0x4d225c(0x174)]('submit-button'),container=document[_0x4d225c(0x174)](_0x4d225c(0x176)),hacked=document['querySelector']('.hacked'),wrong=document[_0x4d225c(0x17e)](_0x4d225c(0x184)),wrong_coordinates=document[_0x4d225c(0x17e)]('.xyz'),rules=document[_0x4d225c(0x174)]('start'),minecraft=document[_0x4d225c(0x174)](_0x4d225c(0x170));function _0x5ae7(_0x8621e8,_0x450662){const _0x4a6868=_0x4a68();return _0x5ae7=function(_0x5ae7db,_0x2505ec){_0x5ae7db=_0x5ae7db-0x168;let _0x28147d=_0x4a6868[_0x5ae7db];return _0x28147d;},_0x5ae7(_0x8621e8,_0x450662);}submit['addEventListener'](_0x4d225c(0x179),()=>{const _0x55ba2a=_0x4d225c;let _0xbba0a3=input[_0x55ba2a(0x17c)];_0xbba0a3=='3THz_IR'||_0xbba0a3=='Salute_Salute'||_0xbba0a3==_0x55ba2a(0x16c)||_0xbba0a3==_0x55ba2a(0x175)||_0xbba0a3==_0x55ba2a(0x172)||_0xbba0a3==_0x55ba2a(0x186)||_0xbba0a3==_0x55ba2a(0x171)||_0xbba0a3=='The_End'||_0xbba0a3==_0x55ba2a(0x16a)||_0xbba0a3==_0x55ba2a(0x183)?(container[_0x55ba2a(0x17a)][_0x55ba2a(0x182)](_0x55ba2a(0x17f)),container[_0x55ba2a(0x17a)][_0x55ba2a(0x17d)](_0x55ba2a(0x168)),hacked['classList']['remove'](_0x55ba2a(0x168)),hacked[_0x55ba2a(0x17a)][_0x55ba2a(0x17d)]('active')):input['style']['border']=_0x55ba2a(0x169),console[_0x55ba2a(0x185)](_0xbba0a3);});
 
 
 
@@ -86,18 +9,13 @@ function minecraft_dying_screen() {
 
 
 
-        
-
-        // Update the countdown every second
-            
-    
 
 
 
 
 
 
-    
+
 
 
 
