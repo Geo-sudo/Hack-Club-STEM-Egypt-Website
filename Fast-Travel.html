@@ -29,26 +29,31 @@
             <p>CYBERQUEST</p>
         </div>
         <div class="main-event-container">
-            <p class="words-main">The power management system is glitching. These damn ancient systems. In the documentation of the system, it says that you should do a system reset by entering the reset code into the management system. There’s an encrypted system reset code; thank God it’s encrypted, you don’t anyone resetting the system anytime. Next to it is a picture with a clue to decode the crypt and obtain the reset code. It’s too dark to see anything thanks to the malfunction power system, you need a way to increase the brightness. 
-
-            <br> P.S. Remember to save the reset code, you might need it for later. </p>
-            <img src="CQ - System Reset Code Clue (it's too dark..).png" alt="none">
-            <p class="crypt">Beea_Ruxydt_Oek</p>
+            <p class="words-main">You got the power back up running. Now, with the coordinates from the General’s hard drive, you can use the hyper-power engines to get the Raider’s ship before they attack the hydrogen mine. Fasten Your Seat Belts! </p>
+            <p class="crypt">Enter the coordinates (to the nearest tenth) to go to:</p>
             <div class="input active" action="" id="container">
-                <input type="text" placeholder="Enter the code" id="input4">
-                <button id="submit-button" type="submit">Submit</button>
+                <div class="coordinates">
+                    <input type="number" placeholder="X-coordinates" id="inputX" class="xyz">
+                    <input type="number" placeholder="Y-coordinates" id="inputY" class="xyz">
+                    <input type="number" placeholder="Z-coordinates" id="inputZ" class="xyz">
+                </div>
+                <button id="submit-button" type="submit" style="display: none;">Submit</button>
             </div>
             <div class="hacked close">
                 <p class="words-main">You figured it out!</p>
-                <a href="To-The-Power-Room.html">Continue</a>
+                <a href="Docking.html">Continue</a>
             </div>
         </div>
         <div class="foot">
-            <p class="clue-number">Clue-Num: 4</p>
-            <p class="clue-code">Clue-Name: Power is Glitching</p>
+            <p class="clue-number">Clue-Num: 7</p>
+            <p class="clue-code">Clue-Name: Fast Travel</p>
         </div>
     </div>
-    <script src="rule_guidelines.js"></script>
     <script src="clues.js"></script>
+    <script src="rule_guidelines.js">
+        let num = 7;
+        console.log(num);
+    </script>
+    <script src="coordinates.js"></script>
 </body>
 </html>
