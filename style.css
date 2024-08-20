@@ -16,6 +16,7 @@ body:not(.home-body) {
   background: #0b0e14;
 }
 
+
 .cardImgs {
   width: 100%;
   height: auto;
@@ -393,6 +394,12 @@ iframe {
     height: auto;
   }
 
+  .content.join{
+    margin-left: 3% !important;
+  }
+
+  
+
   .top-background {
     height: 100%;
     background-position: center;
@@ -440,6 +447,102 @@ iframe {
     margin-bottom: 0.5em;
   }
 }
+
+
+
+.syllabus{
+  background: black;
+  color: white;
+  padding: 40px 0;
+  border-radius: 50px;
+  margin: 20px 150px;
+}
+.comparing-container{
+  padding: 10px 107px;
+  display: flex;
+  flex-direction: column;
+}
+
+.comparing-inner{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.link-to-comp{
+  
+background: #02a726;
+  text-align: center;
+}
+
+
+.reg-btn{
+  font-size: 1em;
+  background-color: #000;
+  padding: 1em;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.reg-btn:hover{
+  background-color: white;
+  color: black;
+}
+
+.link-to-comp h1{
+  font-size: 4em;
+  font-weight: bold;
+  color: white;
+  padding: 20px;
+}
+
+.landing-pic{
+  padding: 40px;
+}
+
+.landing-pic p{
+  margin-top: 20px;
+}
+
+.seniors, .juniors{
+  width: 50%;
+  padding: 0 20px;
+  border-left: #02a726 solid 2px;
+}
+
+.comparing-container h2{
+  font-weight: bold;
+}
+
+@media (max-width: 991.98px) {
+  .comparing-container{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .landing-pic h1{
+    font-size: 3em;
+  }
+
+  .comparing-inner{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .syllabus{
+    margin: 20px 46px;
+  }
+
+  .seniors, .juniors{
+    width: 100%;
+    margin: 10px;
+  }
+
+}
+
 
 .card-grid {
   display: grid;
@@ -571,7 +674,7 @@ nav.navbar .navbar-brand img {
 }
 
 nav .navbar-nav .nav-link {
-  margin-inline: 0.5rem;
+  margin-inline: 0.2rem;
 }
 
 nav .navbar-nav .nav-link:hover {
