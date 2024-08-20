@@ -1,0 +1,17 @@
+.topic{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hackathon-title{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+
+}
+
+.hackathon-title span{
+    font-size: 2em;
+}
