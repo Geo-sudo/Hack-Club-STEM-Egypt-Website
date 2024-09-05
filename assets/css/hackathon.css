@@ -76,8 +76,6 @@
     justify-content: left;
     align-items: center;
     flex-wrap: wrap;
-    margin-left: ;
-    margin-right: ;
 }
 
 
@@ -130,6 +128,19 @@
 
 .event-icon img{
     width: 50%;
+}
+
+
+@media screen and (max-width: 768px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .title{
+        padding: 1em;
+        font-size: 2em;
+    }
 }
 
 
