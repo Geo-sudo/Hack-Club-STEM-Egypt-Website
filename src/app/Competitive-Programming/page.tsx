@@ -1,8 +1,6 @@
 //components
 import CPbg from "@/components/CP-bg";
 import CPContent from "@/components/CP-Content";
-// for cloudFlare
-export const runtime = "edge";
 
 export default function page() {
   return (

@@ -64,7 +64,7 @@ const HomeMemberPic = () => {
         </CarouselContent>
         <CarouselPrevious className="border-black text-black dark:text-white dark:border-white scale-0 lg:scale-100" />
         <CarouselNext className="border-black text-black dark:text-white dark:border-white scale-0 lg:scale-100" />
-        <p className="w-full text-center text-base animate-bounce pt-4 text-black dark:text-white duration-1000">
+        <p className="w-full text-center text-base animate-bounce pt-4 text-white dark:text-white duration-1000">
           Swipe to see more pictures
         </p>
       </Carousel>
