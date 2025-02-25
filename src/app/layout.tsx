@@ -10,6 +10,8 @@ export const metadata: Metadata = {
     " Stem Hack Club is a community of students who are passionate about STEM and coding.",
 };
 
+export const runtime = "edge";
+
 export default function RootLayout({
   children,
 }: Readonly<{
