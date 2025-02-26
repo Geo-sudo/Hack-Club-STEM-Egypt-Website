@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://stem-hack-club-site.vercel.app/sitemap
