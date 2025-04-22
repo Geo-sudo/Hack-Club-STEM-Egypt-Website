@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-// import HackerError from '../../public/images/HackerError.png'
+import HackerError from '../../public/images/HackerError.png'
 
 export default function notfound() {
   return (
@@ -12,9 +12,7 @@ export default function notfound() {
       </div>
       <Image 
        className='w-96 h-96 select-none md:right-24 lg:right-60'
-       src="/images/HackerError.png" 
-       width={500}
-       height={500}
+       src={HackerError} 
        alt='hackerError'
        />
     </section>

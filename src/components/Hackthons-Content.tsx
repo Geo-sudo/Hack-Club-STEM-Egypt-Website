@@ -16,7 +16,7 @@ const HackthonsContent = () => {
     {image:"/images/moonlit hacks.png", title:"Moonlit Hack "},
   ];
   return (
-    <div className="p-10 flex flex-col  gap-14 items-center h-fit md:h-screen">
+    <div className="px-5 lg:px-20 py-10 flex flex-col  gap-14 items-center h-fit md:h-screen">
       <div className="">
         <h1 data-aos="fade-right" className="mb-4">What's a Hackathon</h1>
         <p data-aos="fade-right" className="ml-4">
@@ -33,7 +33,7 @@ const HackthonsContent = () => {
           <div
             data-aos="zoom-in"
             key={index}
-            className=" p-10 h-52 w-80 bg-slate-400 dark:bg-neutral-900  rounded-md flex flex-col gap-4  justify-evenly items-center  select-none"
+            className=" p-10 h-52 w-80 bg-gray-300 dark:bg-neutral-900  rounded-md flex flex-col gap-4  justify-evenly items-center  select-none"
           >
             <Image
               src={component.image}
@@ -43,7 +43,7 @@ const HackthonsContent = () => {
               className=""
             />
 
-            <h1 className="text-lg text-white dark:text-white">
+            <h1 className="text-lg text-gray-800 dark:text-white">
               {component.title}
             </h1>
           </div>

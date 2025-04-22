@@ -12,29 +12,32 @@ import {
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 
-const TraksLinks :{title: string ; href: string; description : string}[]= [
+const TraksLinks: { title: string; href: string; description: string }[] = [
   {
     title: "Game Development",
-    href: "/game-development",
-    description: "From pixels to playtime—turn your wildest ideas into addictive games!",
+    href: "/tracks/Game-Development",
+    description:
+      "From pixels to playtime—turn your wildest ideas into addictive games!",
   },
   {
-  title:"App Development ",
-  href: "/app-development",
-  description: "Build apps, change lives—because the world needs your next big idea!",
+    title: "App Development ",
+    href: "/tracks/App-Development",
+    description:
+      "Build apps, change lives—because the world needs your next big idea!",
   },
   {
     title: "Cyber Security ",
-    href: "/cyber-security",
-    description: "Hack the hackers (legally, of course) and keep the digital world one step safer!",
+    href: "/tracks/cyber-security",
+    description:
+      "Hack the hackers (legally, of course) and keep the digital world one step safer!",
   },
- 
-]
+];
 const EventsLinks: { title: string; href: string; description: string }[] = [
   {
     title: "Hackathons",
     href: "/Hackathons",
-    description: "Hackathons are a great way to learn new skills, meet new people, and have fun whil" ,
+    description:
+      "Hackathons are a great way to learn new skills, meet new people, and have fun whil",
   },
   {
     title: "Teen-hack-competition",
@@ -61,62 +64,62 @@ export function NavigationMenuDemo() {
     };
   }, []);
   return (
-    <NavigationMenu className="duration-200">
+    <NavigationMenu>
       <NavigationMenuList>
-      <NavigationMenuItem>
+        <NavigationMenuItem>
           <NavigationMenuTrigger
-           className={`bg-transparent ${
-            hasScrolled ? "text-black dark:text-white  " : "text-white"
-          }`}
+            className={`bg-transparent   duration-0   ${
+              hasScrolled
+                ? "text-black dark:text-white hover:text-red-500 dark:hover:text-red-500 "
+                : "text-white "
+            }`}
           >
             Tracks
           </NavigationMenuTrigger>
-          <NavigationMenuContent>
+          <NavigationMenuContent className="duration-200">
             <ul className="grid gap-3 p-4 lg:w-[400px] 2xl:w-[500px] lg:grid-cols-[1fr_1fr]">
               <li className="row-span-3">
                 <NavigationMenuLink asChild>
                   <Link
                     className="text-sm flex h-full w-full select-none flex-col justify-center rounded-md bg-slate-300 dark:bg-neutral-800 p-6 "
-                    href="/Competitive-Programming"
+                    href="/tracks/Competitive-Programming"
                   >
                     Competitive-Programming
-                    <div className="mb-2 mt-4 text-lg font-medium">
-                      
-                    </div>
+                    <div className="mb-2 mt-4 text-lg font-medium"></div>
                     <p className="text-sm leading-tight text-muted-foreground">
-                    Code fast, debug faster—where brainpower meets the ultimate algorithmic showdown!
-                    
+                      Code fast, debug faster—where brainpower meets the
+                      ultimate algorithmic showdown!
                     </p>
                   </Link>
                 </NavigationMenuLink>
               </li>
-             {TraksLinks.map((track,index)=> (
-              <Link 
-                key={index}
-                href={track.href}
-                className="hover:bg-slate-300 dark:hover:bg-neutral-800  p-2 rounded-xl cursor-pointer duration-200"
-              >
-                <h1 className="text-red-500 dark:text-red-500 text-sm">
-                  {track.title}
-                </h1>
-              <p className="text-sm cursor-pointer">
-                {track.description}
-              </p>
-              </Link>
-             ))}
+              {TraksLinks.map((track, index) => (
+                <Link
+                  key={index}
+                  href={track.href}
+                  className="hover:bg-slate-300 dark:hover:bg-neutral-800  p-2 rounded-xl cursor-pointer duration-200"
+                >
+                  <h1 className="text-red-500 dark:text-red-500 text-sm">
+                    {track.title}
+                  </h1>
+                  <p className="text-sm cursor-pointer">{track.description}</p>
+                </Link>
+              ))}
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
 
         <NavigationMenuItem>
           <NavigationMenuTrigger
-            className={`bg-transparent ${
-              hasScrolled ? "text-black dark:text-white  " : "text-white"
+            className={`bg-transparent   duration-0   ${
+              hasScrolled
+                ? "text-black dark:text-white hover:text-red-500 dark:hover:text-red-500 "
+                : "text-white "
             }`}
           >
-             Events & Competitions
+            Events & Competitions
           </NavigationMenuTrigger>
-          <NavigationMenuContent>
+          <NavigationMenuContent className="duration-200">
             <ul className="p-2 lg:w-[400px] 2xl:w-[500px]">
               {EventsLinks.map((component) => (
                 <Link
