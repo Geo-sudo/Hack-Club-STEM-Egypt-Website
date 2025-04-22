@@ -17,10 +17,10 @@ and yeah u can see all data on  the data folder from links to projects and Mento
 1. **Open your terminal or command prompt.**  
 2. **Run the following command to clone the repository:**  
    ```sh
-   git clone https://github.com/ibrahimwael951/Stem_Hack_club_Site.git
+   git clone https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Website.git
 3. **open folder**
       ```sh
-   cd ./Stem_Hack_club_Site/
+   cd ./Hack-Club-STEM-Egypt-Website/
 4. **download npm**
      ```sh
      npm install
