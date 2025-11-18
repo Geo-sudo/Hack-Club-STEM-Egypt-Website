@@ -1,0 +1,188 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+
+.words-main{
+    text-align: left;
+}
+
+.crypt{
+    font-weight: 300;
+    background-color: black;
+    color: white;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20em;
+    margin-top: 15px;
+}
+
+.input input{
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    font-family: "Kode Mono", monospace;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.input button{
+    font-size: 1.3em;
+    font-family: "Kode Mono", monospace;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background: #472b65;
+    color: white;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.input button:hover{
+    background: #2c1644;
+    color: white;
+}
+
+.hacked{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.wrong{
+    border: 2px solid red;
+}
+
+.confirm{
+    font-size: 1.3em;
+    font-family: "Kode Mono", monospace;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background: #472b65;
+    color: white;
+    width: fit-content;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hacked a{
+    font-size: 1.3em;
+    font-family: "Kode Mono", monospace;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background: #472b65;
+    color: white;
+    width: fit-content;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.minecraft-dying-screen{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    top:0;
+    left:0;
+}
+
+.minecraft-dying-screen::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,0,0,0.5);
+    filter: blur(0.8);
+    z-index: -1;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 2px rgba(151, 151, 151, 1);
+
+}
+
+.button-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button-box button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: grey;
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    margin-bottom: 10px;
+    width: 20em;
+}
+
+
+
+.button-box button a{
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px rgba(151, 151, 151, 1);
+}
+
+.button-box button:hover {
+    background-color: darkgreen;
+}
+
+.button-box button:active {
+    background-color: darkgreen;
+}
+
+.title,.sub-title,.death-reason{
+    margin-bottom: 15px;
+}
+
+.title{
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(151, 151, 151, 1);
+}
+
+
+
+

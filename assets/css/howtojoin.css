@@ -89,3 +89,126 @@
 .hero .title span {
   font-size: 1.2rem !important;
 }
+
+@media(max-width:768px) {
+  .hero .myquote span:nth-child(1) {
+    margin-left: 0rem;
+  }
+  .hero .myquote span:nth-child(2) {
+    margin-left: 0rem;
+  }
+  .hero .myquote span:nth-child(3) {
+    margin-left: 0rem;
+  }
+  .hero .myquote span:nth-child(4) {
+    margin-left: 0rem;
+    position: relative;
+  }
+
+  .hero .myquote {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 0rem;
+    font-size: 5rem;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .hero .myquote span:nth-child(4)::before {
+    
+    right: 2.5rem;
+    width: 18.85rem;
+    height: 5.75rem;
+  }
+  .hero .title {
+    transform: rotate(9deg);
+  }
+
+  .icons{
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 400px){
+  .hero .myquote {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 0rem;
+    font-size: 5rem;
+    line-height: 1;
+    text-align: center;
+  }
+  .hero .myquote span:nth-child(4)::before {
+    right: 2.5rem;
+    width: 18.85rem;
+    height: 5.75rem;
+  }
+  .hero .title {
+    transform: rotate(9deg);
+  }
+  .icons{
+    justify-content: center;
+  }
+}
+
+@media (max-width: 390px){
+  .hero .myquote {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 0rem;
+    font-size: 4.2rem;
+    line-height: 1;
+    text-align: center;
+    margin: 0 4px;
+  }
+  .hero .myquote span:nth-child(4)::before {
+    right: 2.5rem;
+    width: 15.85rem;
+    height: 3.75rem;
+  }
+  .hero .title {
+    transform: rotate(9deg);
+  }
+  .icons{
+    justify-content: center;
+  }
+  .hero .title {
+    position: absolute;
+    background-color: #0b0e14;
+    bottom: -6rem;
+    left: 9rem;
+    color: white;
+    /* mix-blend-mode: screen; */
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    text-align: center;
+}
+
+@media (max-width:300px){
+  .hero .myquote span:nth-child(4)::before {
+    right: 0.5rem;
+    width: 13.85rem;
+    height: 3.75rem;
+  }
+  .hero .title {
+    position: absolute;
+    background-color: #0b0e14;
+    bottom: -2rem;
+    left: 8rem;
+    color: white;
+    /* mix-blend-mode: screen; */
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .hero .title {
+    transform: rotate(12deg);
+  }
+  .hero .title h1 {
+    font-size: 0.7rem !important;
+    padding-top: 2rem;
+  }
+}

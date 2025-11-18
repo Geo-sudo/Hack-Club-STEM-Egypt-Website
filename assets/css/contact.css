@@ -34,7 +34,6 @@
   height: 85vh;
   background-color: #3a863d;
   padding-left: 5rem;
-  padding-right: 5rem;
   font-family: "Phantom Sans";
 }
 
@@ -62,6 +61,8 @@
   display: none;
   opacity: 0;
 }
+
+
 
 .board .card:hover {
   transform: scale(1.025);
@@ -95,6 +96,7 @@
   text-align: center;
   line-height: 1;
   padding-bottom: 0;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .board .card .card-title {
@@ -106,16 +108,23 @@
   
 }
 
+.col-4{
+  width: 21em;
+}
+
+.col-4-3{
+  width: 58px;
+}
+
 .year {  
   cursor: pointer;
   background-color:transparent;
   padding: 10px 20px;
   border-radius: 15px;
-  margin: 15px;
+  margin: 7px;
   font-weight: bold;
   font-size: 20px;
 }
-
 .year:hover {
   border: 2px solid #3a863d;
   transition: .3s;
@@ -129,4 +138,66 @@
 .hidden {
   display: none;
 }
+
+.cot{
+  display: flex;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+.block1{
+  margin-right: 10.5em;
+}
+
+.block2{
+  margin-left: 10.5em;
+}
+
+@media (max-width: 1023px){
+  .hero{
+    padding-left: 2rem;
+  }
+  .block1{
+    margin-right: 0;
+  }
+  .container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icons{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .block2{
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 850px){
+  .content.join{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .years{
+    display: flex;
+  }
+}
+
+@media (max-width: 500px){
+  .words{
+    width: 15em !important;
+  }
+  .row{
+    margin-left: 0;
+  }
+}
+
+
 

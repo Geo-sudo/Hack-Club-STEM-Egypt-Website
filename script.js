@@ -1,6 +1,5 @@
 function nextTime() {
-  var text = "Welcome!";
-
+  let text = "Welcome!";
   return text;
 
 }

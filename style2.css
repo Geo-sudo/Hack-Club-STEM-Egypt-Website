@@ -300,6 +300,8 @@ a.nav-link{
   /* list-style: none; */
 }
 
+
+
 .nav-menu-button{
   padding-right: 1rem;
   background: none;
@@ -846,4 +848,5 @@ footer div a:hover svg {
   {
     width: 70%;
   }
+  
 }
